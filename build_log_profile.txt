@@ -1,0 +1,25 @@
+
+> bingmine-website@0.1.0 build
+> next build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+   ▲ Next.js 16.0.5 (Turbopack)
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ ✓ Compiled successfully in 11.6s
+   Running TypeScript ...
+Failed to compile.
+
+./src/app/profile/page.tsx:248:38
+Type error: Cannot find name 'FileText'.
+
+[0m [90m 246 |[39m                             [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex flex-col items-center justify-center text-center gap-3 max-w-sm mx-auto"[39m[33m>[39m
+ [90m 247 |[39m                                 [33m<[39m[33mdiv[39m className[33m=[39m[32m"h-16 w-16 rounded-full bg-muted flex items-center justify-center mb-2"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 248 |[39m                                     [33m<[39m[33mFileText[39m className[33m=[39m[32m"h-8 w-8 text-muted-foreground"[39m [33m/[39m[33m>[39m
+ [90m     |[39m                                      [31m[1m^[22m[39m
+ [90m 249 |[39m                                 [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m
+ [90m 250 |[39m                                 [33m<[39m[33mh3[39m className[33m=[39m[32m"font-bold text-xl"[39m[33m>[39m[33mNo[39m posts yet[33m<[39m[33m/[39m[33mh3[39m[33m>[39m
+ [90m 251 |[39m                                 [33m<[39m[33mp[39m className[33m=[39m[32m"text-muted-foreground"[39m[33m>[39m[0m
+Next.js build worker exited with code: 1 and signal: null

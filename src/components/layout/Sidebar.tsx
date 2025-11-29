@@ -2,19 +2,16 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Home, Search, Calendar, Video, Image, FileText, Users, UserPlus } from "lucide-react"
+import { Home, UserPlus, User, Settings } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
-// Updated items based on the image provided
+// Updated items based on existing pages
 const sidebarItems = [
     { icon: Home, label: "Feed", href: "/feed" },
-    { icon: Users, label: "Friends", href: "/friends" }, // Placeholder route
-    { icon: Calendar, label: "Event", href: "/events" }, // Placeholder route
-    { icon: Video, label: "Watch Videos", href: "/videos" }, // Placeholder route
-    { icon: Image, label: "Photos", href: "/photos" }, // Placeholder route
-    { icon: FileText, label: "Files", href: "/files" }, // Placeholder route
     { icon: UserPlus, label: "Requests", href: "/requests" },
+    { icon: User, label: "Profile", href: "/profile" },
+    { icon: Settings, label: "Settings", href: "/settings" },
 ]
 
 const pagesYouLike = [

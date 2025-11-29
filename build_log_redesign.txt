@@ -1,0 +1,37 @@
+
+> bingmine-website@0.1.0 build
+> next build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+   ▲ Next.js 16.0.5 (Turbopack)
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+
+> Build error occurred
+Error: Turbopack build failed with 2 errors:
+./src/app/feed/page.tsx:24:1
+Parsing ecmascript source code failed
+[0m [90m 22 |[39m                             [33m<[39m[33m/[39m[33mMainLayout[39m[33m>[39m
+ [90m 23 |[39m                             )
+[31m[1m>[22m[39m[90m 24 |[39m }
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 25 |[39m[0m
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+
+./src/app/profile/page.tsx:108:6
+Parsing ecmascript source code failed
+[0m [90m 106 |[39m             [33m<[39m[33m/[39m[33mMainLayout[39m[33m>[39m
+ [90m 107 |[39m         )
+[31m[1m>[22m[39m[90m 108 |[39m     }
+ [90m     |[39m      [31m[1m^[22m[39m
+ [90m 109 |[39m[0m
+
+Expected '}', got '<eof>'
+
+
+    at <unknown> (./src/app/feed/page.tsx:24:1)
+    at <unknown> (./src/app/profile/page.tsx:108:6)

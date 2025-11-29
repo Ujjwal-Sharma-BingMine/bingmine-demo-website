@@ -1,0 +1,27 @@
+
+> bingmine-website@0.1.0 build
+> next build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+   ▲ Next.js 16.0.5 (Turbopack)
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./src/app/feed/page.tsx:16:5
+Parsing ecmascript source code failed
+[0m [90m 14 |[39m
+ [90m 15 |[39m                 [36mexport[39m [36mdefault[39m [36mfunction[39m [33mFeedPage[39m() {
+[31m[1m>[22m[39m[90m 16 |[39m     [36mreturn[39m (
+ [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 17 |[39m                 [33m<[39m[33mMainLayout[39m[33m>[39m
+ [90m 18 |[39m                     [33m<[39m[33mdiv[39m className[33m=[39m[32m"p-4 space-y-4"[39m[33m>[39m
+ [90m 19 |[39m                         {[90m/* Create Post Input (Placeholder) */[39m}[0m
+
+Expected '</', got 'return'
+
+
+    at <unknown> (./src/app/feed/page.tsx:16:5)

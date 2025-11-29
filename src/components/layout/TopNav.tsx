@@ -31,7 +31,7 @@ export function TopNav() {
                 {/* Left: Logo */}
                 <div className="flex items-center gap-2">
                     <Link href="/feed" className="flex items-center gap-2 font-bold text-xl text-primary">
-                        LOGO
+                        BingMine
                     </Link>
                 </div>
 
